@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>DevFolio Bootstrap Template</title>
+  <title>Xinshen Yong</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <link href="img/website-icon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Bootstrap CSS File -->
@@ -24,6 +25,9 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- Scroll down button Stylesheet File -->
+  <link href="css/scroll-button-style.css" rel="stylesheet">
+
   <!-- =======================================================
     Theme Name: DevFolio
     Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
@@ -37,7 +41,7 @@
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">DevFolio</a>
+      <a class="navbar-brand js-scroll" href="#page-top">Xinshen Yong</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -53,13 +57,10 @@
             <a class="nav-link js-scroll" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Services</a>
+            <a class="nav-link js-scroll" href="#work">Employment</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#blog">Blog</a>
+            <a class="nav-link js-scroll" href="#education">Education</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#contact">Contact</a>
@@ -71,15 +72,20 @@
   <!--/ Nav End /-->
 
   <!--/ Intro Skew Star /-->
-  <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
+  <div id="home" class="intro route bg-image" style="background-image: url(img/nyc-skyline.jpg)">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">I am Morgan Freeman</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">CEO DevFolio,Web Developer,Web Designer,Frontend Developer,Graphic Designer</span><strong class="text-slider"></strong></p>
+          <h1 class="intro-title mb-4">I am Xinshen Yong</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Software Engineer,
+              Senior Year Computer Science Undergraduate</span><strong class="text-slider"></strong></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+          <br />
+          <div id="section01" class="demo">
+            <a href="#about" class="js-scroll"><span></span>Scroll</a>
+          </div>
         </div>
       </div>
     </div>
@@ -89,47 +95,89 @@
   <section id="about" class="about-mf sect-pt4 route">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-14">
           <div class="box-shadow-full">
             <div class="row">
               <div class="col-md-6">
                 <div class="row">
                   <div class="col-sm-6 col-md-5">
                     <div class="about-img">
-                      <img src="img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                      <img src="img/xinshen-portrait.png" class="img-fluid rounded b-shadow-a" alt="">
                     </div>
                   </div>
                   <div class="col-sm-6 col-md-7">
                     <div class="about-info">
-                      <p><span class="title-s">Name: </span> <span>Morgan Freeman</span></p>
-                      <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
-                      <p><span class="title-s">Email: </span> <span>contact@example.com</span></p>
-                      <p><span class="title-s">Phone: </span> <span>(617) 557-0089</span></p>
+                      <p><span class="title-s">Name: </span> <span>Xinshen Yong</span></p>
+                      <p><span class="title-s">Profile: </span> <span>Software Engineer, Senior Year Computer Science
+                          Undergraduate</span></p>
+                      <p><span class="title-s">Email: </span> <span>xinshen@u.nus.edu</span></p>
+                      <p><span class="title-s">Skype ID: </span> <span>amuletxheart</span></p>
+                      <p><span class="title-s">Phone: </span> <span>(202) 290-4191</span></p>
+                      <p><span class="title-s">LinkedIn: </span> <a class="btn-link"
+                          href="http://linkedin.com/in/yongxinshen">linkedin.com/in/yongxinshen</a></p>
+                      <p><span class="title-s">Github: </span> <a class="btn-link"
+                          href="http://github.com/amuletxheart">github.com/amuletxheart</a></p>
                     </div>
                   </div>
                 </div>
+                <br />
                 <div class="skill-mf">
-                  <p class="title-s">Skill</p>
-                  <span>HTML</span> <span class="pull-right">85%</span>
+                  <h5>Programming Languages and Technologies</h5>
+                  <br />
+                  <h6>Proficient:</h6>
+                  <span>Object-oriented Programming (OOP)</span> <span class="pull-right">9/10</span>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
-                      aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                      aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
-                  <span>CSS3</span> <span class="pull-right">75%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>PHP</span> <span class="pull-right">50%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
+                  <span>Java</span> <span class="pull-right">9/10</span>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
+                  <span>HTML / CSS, Bootstrap</span> <span class="pull-right">9/10</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>JQuery / JQuery Datatables</span> <span class="pull-right">8/10</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Git</span> <span class="pull-right">8/10</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>RESTful API</span> <span class="pull-right">8/10</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Hibernate ORM / SQL</span> <span class="pull-right">7/10</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Python</span> <span class="pull-right">7/10</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Android</span> <span class="pull-right">6/10</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Microsoft Power BI</span> <span class="pull-right">6/10</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <br />
+                  <h6>Familiar:</h6>
+                  <span>ASP.NET, C#, Java EE, Spring Boot, Javascript, Apache Ambari, PySpark</span>
                 </div>
               </div>
               <div class="col-md-6">
@@ -139,21 +187,36 @@
                       About me
                     </h5>
                   </div>
-                  <p class="lead">
-                    Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                    imperdiet et, porttitor
-                    at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                    porttitor accumsan tincidunt.
+                  <form method="get" target="_blank" action="docs/Resume_Xin_Shen_YONG.pdf">
+                      <button type="submit" class="btn btn-primary"><span class="ion-document mr-2"></span>Download PDF
+                        resume</button>
+                  </form>
+                  <br /><br />
+                  <p>
+                    I'm a software engineer, with the tenacity to solve hard problems. Current senior year
+                    Computer Science undergraduate at the National University of Singapore. Previously graduated with a
+                    Diploma
+                    with Merit in Information Technology at Nanyang Polytechnic. I have completed multiple internships
+                    at
+                    several companies, including MNCs and startups. They have recognized my successful contributions
+                    to their organizations, delivering value and increasing productivity.
                   </p>
-                  <p class="lead">
-                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                    porttitor volutpat. Vestibulum
-                    ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                  <p>
+                    At Ernst & Young LLP, I was a data & analytics intern and helped our client, a large government
+                    organization,
+                    to develop a unified data plaform to consolidate data generated by different departments.
+                    My efforts saved 4 man-hours for the client every work week by automating report generation.
                   </p>
-                  <p class="lead">
-                    Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                    Nulla porttitor accumsan
-                    tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                  <p>
+                    At Feezmodo Consulting Private Limited (a startup), my work improved interdepartmental communication
+                    (instant chat vs emails) in a Fortune Global 500 company by developing middleware to interface
+                    Microsoft Teams with IBM Watson Chatbot.
+                  </p>
+                  <p>
+                    At PSA International Private Limited (a container port operator), my work reduced manpower
+                    requirements
+                    (1 worker) permanently 24 hours a day by developing an interactive kiosk to enforce mandatory short
+                    breaks for drivers. Increased driver rest time by 30%.
                   </p>
                 </div>
               </div>
@@ -163,170 +226,6 @@
       </div>
     </div>
   </section>
-
-  <!--/ Section Services Star /-->
-  <section id="service" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Services
-            </h3>
-            <p class="subtitle-a">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-monitor"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Web Design</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-code-working"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Web Development</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-camera"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Photography</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Responsive Design</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-paintbrush"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Graphic Design</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-stats-bars"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Marketing Services</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Section Services End /-->
-
-  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">450</p>
-              <span class="counter-text">WORKS COMPLETED</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">15</p>
-              <span class="counter-text">YEARS OF EXPERIENCE</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-people"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">550</p>
-              <span class="counter-text">TOTAL CLIENTS</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">36</p>
-              <span class="counter-text">AWARD WON</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!--/ Section Portfolio Star /-->
   <section id="work" class="portfolio-mf sect-pt4 route">
@@ -335,11 +234,8 @@
         <div class="col-sm-12">
           <div class="title-box text-center">
             <h3 class="title-a">
-              Portfolio
+              Employment
             </h3>
-            <p class="subtitle-a">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
             <div class="line-mf"></div>
           </div>
         </div>
@@ -347,16 +243,17 @@
       <div class="row">
         <div class="col-md-4">
           <div class="work-box">
-            <a href="img/work-1.jpg" data-lightbox="gallery-mf">
+            <div data-toggle="modal" data-target=".ey-modal">
               <div class="work-img">
-                <img src="img/work-1.jpg" alt="" class="img-fluid">
+                <img src="img/ey-logo.jpg" alt="" class="img-fluid">
               </div>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Lorem impsum dolor</h2>
+                    <h2 class="w-title">Ernst & Young LLP</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory">Data & Analytics Intern</span>
+                      <p>May 2019 – July 2019</p>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -366,21 +263,22 @@
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="work-box">
-            <a href="img/work-2.jpg" data-lightbox="gallery-mf">
+            <div data-toggle="modal" data-target=".feezmodo-modal">
               <div class="work-img">
-                <img src="img/work-2.jpg" alt="" class="img-fluid">
+                <img src="img/feezmodo-logo.PNG" alt="" class="img-fluid">
               </div>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Loreda Cuno Nere</h2>
+                    <h2 class="w-title">Feezmodo Consulting Private Limited</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory">Software Engineer</span>
+                      <p>Jun 2018 – July 2018</p>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -390,21 +288,22 @@
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="work-box">
-            <a href="img/work-3.jpg" data-lightbox="gallery-mf">
+            <div data-toggle="modal" data-target=".psa-modal">
               <div class="work-img">
-                <img src="img/work-3.jpg" alt="" class="img-fluid">
+                <img src="img/psa-logo.jpg" alt="" class="img-fluid">
               </div>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Mavrito Lana Dere</h2>
+                    <h2 class="w-title">PSA International Private Limited</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory">Software Developer Intern</span>
+                      <p>Sep 2014 – Nov 2014</p>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -414,86 +313,184 @@
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-4.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-4.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Bindo Laro Cado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-5.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-5.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Lena Mado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-6.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-6.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Big Bang</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        
       </div>
     </div>
   </section>
   <!--/ Section Portfolio End /-->
+
+  <div class="modal fade ey-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Ernst & Young LLP</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Reduced 4 man-hour requirement every work week by automating report generation, through development of
+            a unified data platform to consolidate data generated by different departments.
+          </p>
+
+          <p>
+            Enhanced and debugged web application that search vast amounts of emails and creates a knowledge base.
+          </p>
+
+          <p>
+            Performed handover to client through knowledge transfer to IT department and end users, created training
+            materials.
+          </p>
+          <p>
+            <u>Leveraged knowledge</u> in SQL, databases, ETL process, PySpark, Apache Zeppelin, Power BI, Excel (data
+            manipulation), PowerShell, ASP.NET MVC, Razor Pages
+          </p>
+          <h5>Certificate of Accomplishment</h5>
+          <img src="img/ey-certificate.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade feezmodo-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Feezmodo Consulting Private Limited</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Improved interdepartmental communication (instant chat vs emails) in a Fortune Global 500 company by
+            developing middleware to interface Microsoft Teams with IBM Watson Chatbot.
+          </p>
+          <p>
+            Trained client company’s software engineers over 2 weeks to take over the project and replicate the steps
+            needed to deploy onto production servers. Provided documentation and conducted technical walkthroughs.
+          </p>
+          <p>
+            <u>Leveraged knowledge</u> in Node.js, Microsoft Azure, IBM Bluemix, IBM Watson Chatbot, Cloud Foundry,
+            Linux
+            (Bash), Markdown
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade psa-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">PSA International Private Limited</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Developed an employee pass reader API and established use cases of the API by implementing 2 reference
+            applications; a desktop application and an Android app.
+          </p>
+          <p>
+            Trained developers to understand code base by writing developer guide and Javadoc, as well as conducting
+            technical walkthroughs.
+          </p>
+          <p>
+            Reduced manpower requirements (1 worker) permanently 24 hours a day by developing an interactive kiosk
+            utilizing the API to enforce mandatory short breaks for drivers. Increased driver rest time by 30%.
+          </p>
+          <p>
+            <u>Leveraged knowledge</u> in Java, Android, Java Swing, concurrency, Smart Card (SS 529:2006/ICS
+            35.240.15),
+            Javadoc
+          </p>
+          <h5>Screenshot of Kiosk Prototype</h5>
+          <img src="img/psa-screenshot-1.png" alt="" class="img-fluid">
+          <br /><br /><br />
+          <h5>Certificate of Internship</h5>
+          <img src="img/psa-certificate.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--/ Section Services Star /-->
+  <section id="education" class="sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Education
+            </h3>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="box-shadow-full">
+            <h5>
+              National University of Singapore
+            </h5>
+            <p>Aug 2017 – Present</p>
+            <p>
+              Bachelor of Computing (Honours) in Computer Science
+            </p>
+            <p class="ml-5">
+              Focus area in Software Engineering. Coursework includes: data structures & algorithms, operating
+              systems, networks, software design principles and patterns.
+            </p>
+            <p>Ridge View Residential College</p>
+            <p class="ml-5">
+              Honed workplace communication and critical thinking skills through multidisciplinary coursework.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="box-shadow-full">
+            <h5>
+              Georgetown University
+            </h5>
+            <p>Aug 2018 – Dec 2018</p>
+            <p>
+              Student Exchange Program
+            </p>
+            <p>
+              Established contact and guided future students by being the pioneer batch of exchange student from my
+              school. Refined communications skills to more effectively communicate in cross-cultural settings.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="box-shadow-full">
+            <h5>
+              Nanyang Polytechnic
+            </h5>
+            <p>Apr 2013 – Feb 2015</p>
+            <p>
+              Diploma with Merit in Information Technology. Specialization in information security.
+            </p>
+            <p>
+              Attained GPA of 3.94/4.0, Admitted to Director’s List in 2013/2014/2015
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Services End /-->
 
   <!--/ Section Testimonials Star /-->
   <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
@@ -504,26 +501,37 @@
           <div id="testimonial-mf" class="owl-carousel owl-theme">
             <div class="testimonial-box">
               <div class="author-test">
-                <img src="img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Xavi Alonso</span>
+                <img src="img/lung-hao.jpg" alt="" class="rounded-circle b-shadow-a" width="200" height="200">
+                <span class="author">Lung Hao Liu</span>
               </div>
               <div class="content-test">
                 <p class="description lead">
-                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
+                  Xin Shen was a technical intern with Feezmodo from June to July 2018 and perform fabulously during his
+                  internship. He is passionate and wonderful to work with. His team lead and peers have high ratings of
+                  him. He contributed actively during project meetings and provided many ideas and suggestions which we
+                  adopted into the project.
+
+                  The project that Xin Shen was working on involves a Fortune Global 500 company. Xin Shen planned the
+                  architecture and developed the initial proof of concept independently within 2 weeks. He also took the
+                  initiative to ask and learn from other software engineers when in doubt. Both project manager and
+                  client are very satisfied with his work. Excellent work.
                 </p>
                 <span class="comit"><i class="fa fa-quote-right"></i></span>
               </div>
             </div>
             <div class="testimonial-box">
               <div class="author-test">
-                <img src="img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Marta Socrate</span>
+                <img src="img/bindi-mohan.jpg" alt="" class="rounded-circle b-shadow-a" width="200" height="200">
+                <span class="author">Bindi Mohan</span>
               </div>
               <div class="content-test">
                 <p class="description lead">
-                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
+                  It is my pleasure and honor to recommend Yong Xin Shen for the NUS Overseas College Program. I have
+                  worked with Xin Shen for 3 months as his manager at Ernst & Young LLP, where he used his competent
+                  technical and soft skills to deliver spectacular results in the role of Data & Analytics Intern. I am
+                  confident that Xin Shen’s exceptional skills, professional experience, and personal qualities will
+                  make him a powerful asset at any company, be it a startup or MNC, and be a competitive candidate for
+                  an entrepreneurship focused program.
                 </p>
                 <span class="comit"><i class="fa fa-quote-right"></i></span>
               </div>
@@ -533,122 +541,6 @@
       </div>
     </div>
   </div>
-
-  <!--/ Section Blog Star /-->
-  <section id="blog" class="blog-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Blog
-            </h3>
-            <p class="subtitle-a">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-1.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Travel</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-2.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Web Design</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Web Design</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Section Blog End /-->
-
   <!--/ Section Contact-Footer Star /-->
   <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
     <div class="overlay-mf"></div>
@@ -659,64 +551,19 @@
             <div id="contact" class="box-shadow-full">
               <div class="row">
                 <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Send Message Us
-                    </h5>
-                  </div>
-                  <div>
-                      <form action="" method="post" role="form" class="contactForm">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <div class="validation"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div class="col-md-6">
                   <div class="title-box-2 pt-4 pt-md-0">
                     <h5 class="title-left">
-                      Get in Touch
+                      Contact
                     </h5>
                   </div>
                   <div class="more-info">
                     <p class="lead">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                      expedita aperiam aliquid at.
-                      Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                      mollitia inventore?
+                      I'm glad you are interested to know more. Let's talk.
                     </p>
                     <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                      <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                      <li><span class="ion-email"></span> contact@example.com</li>
+                      <li><span class="ion-ios-telephone"></span> (202) 290-4191</li>
+                      <li><span class="ion-social-skype"></span> amuletxheart</li>
+                      <li><span class="ion-email"></span> xinshen@u.nus.edu</li>
                     </ul>
                   </div>
                   <div class="socials">
@@ -739,16 +586,17 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="copyright-box">
-              <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
               <div class="credits">
                 <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-                -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                      All the links in the footer should remain intact.
+                      You can delete the links only if you purchased the pro version.
+                      Licensing information: https://bootstrapmade.com/license/
+                      Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+                    -->
+                Original design by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                <p>Modified by me</p>
               </div>
+              <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
             </div>
           </div>
         </div>
@@ -778,4 +626,5 @@
   <script src="js/main.js"></script>
 
 </body>
+
 </html>
